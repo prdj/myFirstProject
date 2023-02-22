@@ -4,11 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Project</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Figma project</title>
 </head>
 <body>
-    <header></header>
-    <section></section>
-    <footer></footer>
+    <nav>
+        <div class="nav-left">Logo</div>
+        <div class="nav-right">
+            
+                <div>
+                    <li><a href="#home">Home</a></li>
+                </div>
+                <div>
+                    <li><a href="#duck">Talk to the duck</a></li>
+                </div>
+                <div>
+                    <li><a href="#emergency">Emergency Kit</a></li>
+                </div>
+                <div>
+                    <li><a href="#contact"> Contact</a></li>
+                </div>
+           
+        </div>
+    </nav>
+    <header id="home">
+        <h1>< Hello World /></h1>
+        <p>
+            ..and hello you!style to it and make it yours!
+        </p>
+    </header>
+    <section id="duck">
+        <div class="text">
+            <h2>Your new best friend</h2>
+            <p>
+                Your text here...
+            </p>
+            <button>Button</button>
+        </div>
+        <div class="duck">
+            <a href="*yourlinkhere*"
+                ><img
+                    src="*yourlinkhere*"
+                    alt="rubberduck"
+            /></a>
+        </div>
+    </section>
+    
+    <section id="emergency">
+        <div>
+            <h1>In case of emergency click on:</h1>
+        </div>
+        
+        <div class="grid-container">
+            <a
+                href="https://discordapp.com/channels/641221910146842644/641593560394760200"
+                ><div class="grid-item">Discord</div></a
+            >
+            <a href="https://stackoverflow.com/"
+                ><div class="grid-item">Stack Overflow</div></a
+            >
+            <a href="https://developer.mozilla.org"
+                ><div class="grid-item">MDN</div></a
+            >
+            <a href="https://www.w3schools.com/"
+                ><div class="grid-item">W3</div></a
+            >
+            <a href="https://medium.com/"><div class="grid-item">Medium</div></a>
+            <a href="https://www.codenewbie.org/podcast">
+                <div class="grid-item">Podcast</div></a>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Contact us</h2>
+        <form>
+        <input type="text" />
+        <textarea cols="30" rows="10"></textarea>
+        <button>Submit</button>
+        </form>
+
+        <div>Proudly created by <em>*< add your name here >*</em></div>
+        <a href="*yourgithublink*"
+            ><img class="github" src="./src/github.png" alt="github-icon"
+        /></a>
+    </footer>
 </body>
 </html>
